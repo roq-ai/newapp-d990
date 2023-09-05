@@ -1,0 +1,2472 @@
+[
+  {
+    "role": [
+      {
+        "id": "789d8498-6e20-46a4-a71c-254a55a1a9d8",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-05T01:09:21.656Z",
+        "date_updated": "2023-09-05T01:40:56.657Z",
+        "created_at": "2023-09-04T15:03:10.980Z",
+        "updated_at": "2023-09-04T20:10:14.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7ec9ea7-60c2-41ca-8c39-5d7b2bd639f7",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-05T04:12:42.724Z",
+        "date_updated": "2023-09-04T09:55:27.151Z",
+        "created_at": "2023-09-04T10:10:17.163Z",
+        "updated_at": "2023-09-04T14:34:31.222Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a2562b9-0082-497b-82ba-c4ff7fdea7d1",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-05T01:10:33.069Z",
+        "date_updated": "2023-09-05T00:30:15.848Z",
+        "created_at": "2023-09-04T22:04:59.801Z",
+        "updated_at": "2023-09-04T14:04:39.922Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30342d30-b533-41d4-93a5-c87d20382ae6",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T18:38:36.852Z",
+        "date_updated": "2023-09-05T07:34:51.125Z",
+        "created_at": "2023-09-05T01:37:33.910Z",
+        "updated_at": "2023-09-05T04:26:20.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f68dd5f2-5ae6-4086-9dea-43bff9c09a28",
+        "role_name": "Guest",
+        "description": "Guest role",
+        "date_created": "2023-09-04T21:06:21.073Z",
+        "date_updated": "2023-09-04T21:39:56.722Z",
+        "created_at": "2023-09-05T04:34:34.523Z",
+        "updated_at": "2023-09-04T11:05:10.754Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "6fcfe52b-9cb4-456c-a10a-0a1be669e38d",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T15:17:56.363Z",
+        "date_updated": "2023-09-04T11:16:53.055Z",
+        "created_at": "2023-09-04T16:05:34.808Z",
+        "updated_at": "2023-09-05T06:36:31.191Z",
+        "role_id": "30342d30-b533-41d4-93a5-c87d20382ae6"
+      },
+      {
+        "id": "40f47327-9515-44eb-b4a9-3a1e2ce6fa59",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-05T02:10:18.638Z",
+        "date_updated": "2023-09-04T15:18:05.856Z",
+        "created_at": "2023-09-04T16:27:29.196Z",
+        "updated_at": "2023-09-04T09:12:42.284Z",
+        "role_id": "30342d30-b533-41d4-93a5-c87d20382ae6"
+      },
+      {
+        "id": "0439327c-5252-4447-acc5-b2f039219427",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T21:04:43.491Z",
+        "date_updated": "2023-09-04T23:37:35.012Z",
+        "created_at": "2023-09-05T02:59:35.367Z",
+        "updated_at": "2023-09-04T16:01:51.251Z",
+        "role_id": "d7ec9ea7-60c2-41ca-8c39-5d7b2bd639f7"
+      },
+      {
+        "id": "442dc6a6-8d68-4ef0-bb68-bcee02723e14",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T13:08:21.941Z",
+        "date_updated": "2023-09-04T16:56:58.667Z",
+        "created_at": "2023-09-04T17:22:43.536Z",
+        "updated_at": "2023-09-05T04:33:02.027Z",
+        "role_id": "30342d30-b533-41d4-93a5-c87d20382ae6"
+      },
+      {
+        "id": "6d3124a0-409b-42a7-b9f9-11fc348f1cc6",
+        "permission_name": "Access",
+        "description": "Access permission",
+        "date_created": "2023-09-05T07:34:02.217Z",
+        "date_updated": "2023-09-04T22:11:18.960Z",
+        "created_at": "2023-09-04T19:25:15.768Z",
+        "updated_at": "2023-09-05T05:10:40.310Z",
+        "role_id": "f68dd5f2-5ae6-4086-9dea-43bff9c09a28"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "cacbe226-7f1b-48fa-864e-d0ef80d449a8",
+        "created_at": "2023-09-05T01:06:58.466Z",
+        "updated_at": "2023-09-04T21:26:41.911Z",
+        "permission_id": "442dc6a6-8d68-4ef0-bb68-bcee02723e14",
+        "role_id": "30342d30-b533-41d4-93a5-c87d20382ae6"
+      },
+      {
+        "id": "c1a08137-b4c2-41b6-8d5f-6313e9471ea4",
+        "created_at": "2023-09-04T19:22:33.235Z",
+        "updated_at": "2023-09-05T06:13:33.251Z",
+        "permission_id": "6d3124a0-409b-42a7-b9f9-11fc348f1cc6",
+        "role_id": "30342d30-b533-41d4-93a5-c87d20382ae6"
+      },
+      {
+        "id": "47823c97-7bd8-40a9-8bee-1f42e1c36ccd",
+        "created_at": "2023-09-04T13:17:30.206Z",
+        "updated_at": "2023-09-04T08:39:34.336Z",
+        "permission_id": "6d3124a0-409b-42a7-b9f9-11fc348f1cc6",
+        "role_id": "4a2562b9-0082-497b-82ba-c4ff7fdea7d1"
+      },
+      {
+        "id": "05d74d91-7ac1-4b1d-b744-2432d25d051f",
+        "created_at": "2023-09-04T14:12:42.409Z",
+        "updated_at": "2023-09-04T20:38:19.888Z",
+        "permission_id": "6d3124a0-409b-42a7-b9f9-11fc348f1cc6",
+        "role_id": "f68dd5f2-5ae6-4086-9dea-43bff9c09a28"
+      },
+      {
+        "id": "e5c90259-6e10-4183-b285-356a28dd22a7",
+        "created_at": "2023-09-04T21:07:07.393Z",
+        "updated_at": "2023-09-04T12:58:39.059Z",
+        "permission_id": "6fcfe52b-9cb4-456c-a10a-0a1be669e38d",
+        "role_id": "d7ec9ea7-60c2-41ca-8c39-5d7b2bd639f7"
+      }
+    ],
+    "document": [
+      {
+        "id": "a978f7db-d4af-442f-92ae-88a69eff45ba",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-04T23:41:07.276Z",
+        "date_updated": "2023-09-04T14:56:31.113Z",
+        "created_at": "2023-09-05T00:39:08.779Z",
+        "updated_at": "2023-09-04T23:01:45.884Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0dc3e9f-3670-42cc-aacd-788e3fd081e7",
+        "title": "Proposal",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T11:04:10.460Z",
+        "date_updated": "2023-09-05T02:15:49.963Z",
+        "created_at": "2023-09-04T19:04:03.682Z",
+        "updated_at": "2023-09-04T11:18:57.106Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac380148-d0a3-4b89-b038-fd0865b376ae",
+        "title": "Contract",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-04T22:51:48.196Z",
+        "date_updated": "2023-09-04T17:42:50.293Z",
+        "created_at": "2023-09-05T05:43:12.400Z",
+        "updated_at": "2023-09-04T16:24:56.590Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7acf15d3-4b32-4ebf-85e6-28b5d38802d7",
+        "title": "Presentation",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-04T19:56:47.575Z",
+        "date_updated": "2023-09-04T17:55:56.604Z",
+        "created_at": "2023-09-05T03:45:04.060Z",
+        "updated_at": "2023-09-04T12:01:52.912Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e899f2e-14d4-4b95-b290-9592177b38e6",
+        "title": "Manual",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-04T12:51:09.790Z",
+        "date_updated": "2023-09-05T04:13:45.081Z",
+        "created_at": "2023-09-05T00:30:44.889Z",
+        "updated_at": "2023-09-04T11:32:39.014Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ca3bbeba-75a7-4352-aaed-4486e9484d0d",
+        "email": "Constance.Cummerata@hotmail.com",
+        "firstName": "Lisa",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7745964",
+        "tenantId": null
+      },
+      {
+        "reference": "79d80ceb-771f-4c31-9125-f5ab2ba3a386",
+        "email": "Adell.Bashirian1@yahoo.com",
+        "firstName": "Angela",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16458522",
+        "tenantId": null
+      },
+      {
+        "reference": "9a8ed68a-5ffd-4e17-b547-e1c1f2d67e4f",
+        "email": "Melvina_Marvin54@gmail.com",
+        "firstName": "Freddy",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b562aa1-13c8-48fd-b81b-bab9dafd6161",
+        "email": "Alessandra.MacGyver@hotmail.com",
+        "firstName": "Stanley",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce3956c2-ec50-41c0-9331-8b1f4b99d5bf",
+        "email": "Charley_Gutkowski@gmail.com",
+        "firstName": "Mary",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11413205",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "72c3ead0-4430-46bf-9e51-c308bed3576c",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-04T23:43:27.036Z",
+        "date_updated": "2023-09-05T05:09:00.871Z",
+        "created_at": "2023-09-05T05:43:00.066Z",
+        "updated_at": "2023-09-04T19:06:55.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d8c20c6-1461-4098-8865-fd4e2e6a47e5",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-05T03:32:37.073Z",
+        "date_updated": "2023-09-04T15:31:05.105Z",
+        "created_at": "2023-09-04T13:15:50.325Z",
+        "updated_at": "2023-09-04T12:31:32.429Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e6e1fdf-8d9b-4025-b811-bb357d8ea65d",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-05T00:26:25.389Z",
+        "date_updated": "2023-09-04T23:01:55.036Z",
+        "created_at": "2023-09-05T06:15:59.852Z",
+        "updated_at": "2023-09-05T05:59:06.421Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a1ca858-17b1-490f-a099-1c06aa3b3c27",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T11:58:35.331Z",
+        "date_updated": "2023-09-05T04:20:09.847Z",
+        "created_at": "2023-09-04T23:19:45.559Z",
+        "updated_at": "2023-09-04T22:02:26.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "551ee32d-32e3-489a-b9f4-596340c09c50",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-04T16:36:48.555Z",
+        "date_updated": "2023-09-05T04:45:09.198Z",
+        "created_at": "2023-09-04T13:35:03.106Z",
+        "updated_at": "2023-09-04T20:37:30.089Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "0b036251-e4f4-4c06-b4ef-bc0388fce7f3",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T12:04:52.175Z",
+        "date_updated": "2023-09-04T10:45:49.059Z",
+        "created_at": "2023-09-04T09:58:47.250Z",
+        "updated_at": "2023-09-04T14:35:48.559Z",
+        "role_id": "1e6e1fdf-8d9b-4025-b811-bb357d8ea65d"
+      },
+      {
+        "id": "b59bd894-e108-4310-9f33-838349051893",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-04T12:48:13.499Z",
+        "date_updated": "2023-09-05T08:00:00.357Z",
+        "created_at": "2023-09-04T22:11:50.840Z",
+        "updated_at": "2023-09-05T07:19:13.921Z",
+        "role_id": "4a1ca858-17b1-490f-a099-1c06aa3b3c27"
+      },
+      {
+        "id": "0a3b8b41-00ce-407d-889a-ef6c463e0331",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T17:03:27.973Z",
+        "date_updated": "2023-09-04T11:14:47.860Z",
+        "created_at": "2023-09-05T02:32:23.988Z",
+        "updated_at": "2023-09-04T10:02:27.023Z",
+        "role_id": "72c3ead0-4430-46bf-9e51-c308bed3576c"
+      },
+      {
+        "id": "427330dd-2fbe-40df-a01a-6cd9fdba2257",
+        "permission_name": "Update",
+        "description": "Update permission",
+        "date_created": "2023-09-04T12:40:39.031Z",
+        "date_updated": "2023-09-04T22:07:42.181Z",
+        "created_at": "2023-09-04T09:53:30.834Z",
+        "updated_at": "2023-09-04T10:14:19.015Z",
+        "role_id": "1d8c20c6-1461-4098-8865-fd4e2e6a47e5"
+      },
+      {
+        "id": "53c2ac98-78df-4247-b65c-5d78a9c6194e",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T19:33:16.616Z",
+        "date_updated": "2023-09-04T19:29:42.488Z",
+        "created_at": "2023-09-05T06:40:03.003Z",
+        "updated_at": "2023-09-04T12:11:52.276Z",
+        "role_id": "551ee32d-32e3-489a-b9f4-596340c09c50"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "ff0268ec-a933-4a2c-99f8-de926db415f9",
+        "created_at": "2023-09-05T00:18:32.411Z",
+        "updated_at": "2023-09-05T03:21:37.487Z",
+        "permission_id": "0a3b8b41-00ce-407d-889a-ef6c463e0331",
+        "role_id": "1d8c20c6-1461-4098-8865-fd4e2e6a47e5"
+      },
+      {
+        "id": "df2764c7-3064-41ed-a464-b29d70a874c5",
+        "created_at": "2023-09-05T07:21:18.530Z",
+        "updated_at": "2023-09-05T01:52:11.186Z",
+        "permission_id": "b59bd894-e108-4310-9f33-838349051893",
+        "role_id": "72c3ead0-4430-46bf-9e51-c308bed3576c"
+      },
+      {
+        "id": "be2cc393-59a6-46e8-a415-4343f5992770",
+        "created_at": "2023-09-04T16:40:45.615Z",
+        "updated_at": "2023-09-05T00:41:17.900Z",
+        "permission_id": "53c2ac98-78df-4247-b65c-5d78a9c6194e",
+        "role_id": "1e6e1fdf-8d9b-4025-b811-bb357d8ea65d"
+      },
+      {
+        "id": "cf20fcca-ede3-4f49-b80a-da8c037dcc27",
+        "created_at": "2023-09-04T23:03:48.507Z",
+        "updated_at": "2023-09-05T07:20:31.504Z",
+        "permission_id": "b59bd894-e108-4310-9f33-838349051893",
+        "role_id": "1e6e1fdf-8d9b-4025-b811-bb357d8ea65d"
+      },
+      {
+        "id": "524aca47-78c9-4e92-ac66-858d55f352d5",
+        "created_at": "2023-09-05T04:15:17.060Z",
+        "updated_at": "2023-09-04T11:47:55.501Z",
+        "permission_id": "b59bd894-e108-4310-9f33-838349051893",
+        "role_id": "1e6e1fdf-8d9b-4025-b811-bb357d8ea65d"
+      }
+    ],
+    "document": [
+      {
+        "id": "3c46b5fa-918c-47ef-be3e-688c5301ca68",
+        "title": "Introduction",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-04T16:12:42.234Z",
+        "date_updated": "2023-09-04T11:34:07.010Z",
+        "created_at": "2023-09-04T19:38:32.173Z",
+        "updated_at": "2023-09-04T10:45:43.329Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ab8be77-4d84-4289-bbf3-3c635dc83a1a",
+        "title": "User Manual",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T16:59:45.042Z",
+        "date_updated": "2023-09-04T21:56:52.469Z",
+        "created_at": "2023-09-04T14:57:56.700Z",
+        "updated_at": "2023-09-04T18:57:30.568Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02894271-8124-4c41-968b-ff6245ce5eab",
+        "title": "Report",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-05T05:09:01.998Z",
+        "date_updated": "2023-09-05T05:24:42.398Z",
+        "created_at": "2023-09-05T05:01:05.736Z",
+        "updated_at": "2023-09-04T11:50:36.928Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59756404-075c-4c4b-8974-f5e2fb992017",
+        "title": "Proposal",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-04T12:46:59.033Z",
+        "date_updated": "2023-09-05T00:25:51.872Z",
+        "created_at": "2023-09-04T18:55:09.648Z",
+        "updated_at": "2023-09-04T16:45:29.738Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "489aa249-28e6-4a73-b5cf-0ff776f2f17c",
+        "title": "Agreement",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-05T06:26:45.379Z",
+        "date_updated": "2023-09-05T07:20:40.277Z",
+        "created_at": "2023-09-04T14:39:31.273Z",
+        "updated_at": "2023-09-04T10:51:05.887Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f1aec544-113a-4e95-9e02-401dd54c288e",
+        "email": "Emerald.Auer44@gmail.com",
+        "firstName": "Brady",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/827.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25f03d87-785a-41e6-a22d-2c5ff7c56fca",
+        "email": "Dan77@hotmail.com",
+        "firstName": "Hattie",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79590884",
+        "tenantId": null
+      },
+      {
+        "reference": "bd02c2b4-d4f4-4650-84de-79d12bf2cb2e",
+        "email": "Shayne_Cassin-Casper84@hotmail.com",
+        "firstName": "Carlo",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84921130",
+        "tenantId": null
+      },
+      {
+        "reference": "857cdd0a-238c-4938-a442-d35813ac7851",
+        "email": "Bessie23@gmail.com",
+        "firstName": "Marisol",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1e8f104-af2d-44cc-bd83-9c65403bfc1c",
+        "email": "Keira83@gmail.com",
+        "firstName": "Imelda",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99959635",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "985d472f-a40e-4121-9096-c4f7f3f577b5",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-05T07:03:13.164Z",
+        "date_updated": "2023-09-04T21:05:35.223Z",
+        "created_at": "2023-09-04T11:35:06.958Z",
+        "updated_at": "2023-09-04T18:00:51.929Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "906952fb-de7f-4735-a3cb-43c0a5e0284a",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T12:07:11.408Z",
+        "date_updated": "2023-09-04T11:41:06.684Z",
+        "created_at": "2023-09-04T13:32:04.707Z",
+        "updated_at": "2023-09-04T08:53:59.211Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b2182d7-b460-4303-b5cc-86471db3738b",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T19:26:01.844Z",
+        "date_updated": "2023-09-04T22:07:14.087Z",
+        "created_at": "2023-09-05T01:50:48.542Z",
+        "updated_at": "2023-09-04T11:53:00.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9f658ff-abe7-4b94-b5f1-07d0662d1032",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-05T06:33:05.370Z",
+        "date_updated": "2023-09-05T04:49:57.093Z",
+        "created_at": "2023-09-04T21:53:54.427Z",
+        "updated_at": "2023-09-04T14:37:34.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cba4db37-9308-45ea-928f-3e1b9c5b36ca",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-05T00:01:31.298Z",
+        "date_updated": "2023-09-05T05:18:35.283Z",
+        "created_at": "2023-09-05T00:22:35.943Z",
+        "updated_at": "2023-09-04T21:12:30.433Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "e4494706-6f4c-4a48-8927-9f823c1e1fcc",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T22:39:52.730Z",
+        "date_updated": "2023-09-04T21:35:12.545Z",
+        "created_at": "2023-09-04T08:09:51.884Z",
+        "updated_at": "2023-09-04T12:18:44.666Z",
+        "role_id": "e9f658ff-abe7-4b94-b5f1-07d0662d1032"
+      },
+      {
+        "id": "66da9874-894a-40d0-8c9e-1d4797d11951",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-05T02:13:17.258Z",
+        "date_updated": "2023-09-05T01:44:22.626Z",
+        "created_at": "2023-09-04T14:47:30.254Z",
+        "updated_at": "2023-09-04T22:48:37.489Z",
+        "role_id": "8b2182d7-b460-4303-b5cc-86471db3738b"
+      },
+      {
+        "id": "ac24b4a9-5aec-42e8-8c06-225dbe53f8ad",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T23:44:43.307Z",
+        "date_updated": "2023-09-04T10:44:28.787Z",
+        "created_at": "2023-09-04T22:16:17.460Z",
+        "updated_at": "2023-09-05T02:25:44.878Z",
+        "role_id": "cba4db37-9308-45ea-928f-3e1b9c5b36ca"
+      },
+      {
+        "id": "8e0f1a6f-d1e5-4c22-8942-8561c655081d",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-05T01:44:12.463Z",
+        "date_updated": "2023-09-04T20:58:22.881Z",
+        "created_at": "2023-09-04T08:59:58.711Z",
+        "updated_at": "2023-09-04T11:17:17.721Z",
+        "role_id": "985d472f-a40e-4121-9096-c4f7f3f577b5"
+      },
+      {
+        "id": "82c5241d-fe19-464d-b304-2204e05bd246",
+        "permission_name": "Admin",
+        "description": "Admin permission",
+        "date_created": "2023-09-04T22:44:20.667Z",
+        "date_updated": "2023-09-05T05:55:34.939Z",
+        "created_at": "2023-09-05T06:15:46.666Z",
+        "updated_at": "2023-09-04T08:09:52.875Z",
+        "role_id": "8b2182d7-b460-4303-b5cc-86471db3738b"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "168d3d40-7574-4599-8a78-7588d4d1ead2",
+        "created_at": "2023-09-04T16:22:45.910Z",
+        "updated_at": "2023-09-04T15:54:38.193Z",
+        "permission_id": "ac24b4a9-5aec-42e8-8c06-225dbe53f8ad",
+        "role_id": "e9f658ff-abe7-4b94-b5f1-07d0662d1032"
+      },
+      {
+        "id": "15be675a-c7b9-40ec-8bad-2181c072e053",
+        "created_at": "2023-09-04T20:31:35.693Z",
+        "updated_at": "2023-09-04T10:33:45.505Z",
+        "permission_id": "66da9874-894a-40d0-8c9e-1d4797d11951",
+        "role_id": "8b2182d7-b460-4303-b5cc-86471db3738b"
+      },
+      {
+        "id": "25465707-0c8e-4e67-aa7a-a7e463e69b2b",
+        "created_at": "2023-09-04T15:44:31.646Z",
+        "updated_at": "2023-09-04T09:17:19.743Z",
+        "permission_id": "66da9874-894a-40d0-8c9e-1d4797d11951",
+        "role_id": "e9f658ff-abe7-4b94-b5f1-07d0662d1032"
+      },
+      {
+        "id": "22f93293-ac15-400c-8f27-7964f76dae44",
+        "created_at": "2023-09-04T18:33:09.219Z",
+        "updated_at": "2023-09-05T00:12:05.404Z",
+        "permission_id": "66da9874-894a-40d0-8c9e-1d4797d11951",
+        "role_id": "906952fb-de7f-4735-a3cb-43c0a5e0284a"
+      },
+      {
+        "id": "5256f42d-9b00-42c1-a574-be01233f1120",
+        "created_at": "2023-09-04T20:51:04.561Z",
+        "updated_at": "2023-09-04T08:36:10.073Z",
+        "permission_id": "82c5241d-fe19-464d-b304-2204e05bd246",
+        "role_id": "cba4db37-9308-45ea-928f-3e1b9c5b36ca"
+      }
+    ],
+    "document": [
+      {
+        "id": "7f7bf029-9a04-4cbb-8412-9fdc962a9937",
+        "title": "Document 1",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-05T02:45:58.670Z",
+        "date_updated": "2023-09-04T11:12:04.129Z",
+        "created_at": "2023-09-05T03:47:56.687Z",
+        "updated_at": "2023-09-05T02:05:27.339Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffe28321-9fb8-4924-8a08-08b2d7a7fd68",
+        "title": "Document 2",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-05T07:47:59.617Z",
+        "date_updated": "2023-09-04T11:48:56.409Z",
+        "created_at": "2023-09-05T05:57:22.045Z",
+        "updated_at": "2023-09-05T07:19:39.313Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9778ad88-89b5-4c4f-b870-2cddec0563ec",
+        "title": "Document 3",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-04T18:01:05.090Z",
+        "date_updated": "2023-09-04T17:46:50.128Z",
+        "created_at": "2023-09-05T02:28:34.149Z",
+        "updated_at": "2023-09-04T10:02:59.988Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b3a2497-00f4-43eb-8e5e-2d793475718b",
+        "title": "Document 4",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-04T17:25:44.913Z",
+        "date_updated": "2023-09-04T09:30:23.773Z",
+        "created_at": "2023-09-05T06:56:28.175Z",
+        "updated_at": "2023-09-05T01:02:44.041Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aea6535-70d9-48a2-a67a-66ecac0754c3",
+        "title": "Document 5",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-04T23:04:16.607Z",
+        "date_updated": "2023-09-05T00:42:05.055Z",
+        "created_at": "2023-09-04T12:15:29.633Z",
+        "updated_at": "2023-09-04T15:08:32.097Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b0680080-95c7-4442-bfa8-ed183de62ae3",
+        "email": "Zoe.Funk3@hotmail.com",
+        "firstName": "Dakota",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5de3ae3d-3212-439a-b19c-6c7b98d7877c",
+        "email": "Guillermo44@yahoo.com",
+        "firstName": "Ines",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a2e06c20-70d4-43be-9d75-3ebccf16783c",
+        "email": "Alisha.Ledner@yahoo.com",
+        "firstName": "Javonte",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76427473",
+        "tenantId": null
+      },
+      {
+        "reference": "94cc5473-1046-4c13-9f3e-481e1b24e3ea",
+        "email": "Salvador1@hotmail.com",
+        "firstName": "Lia",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/261.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb12dca3-f66f-4475-af23-e18327d13a15",
+        "email": "Marta_Ondricka@gmail.com",
+        "firstName": "Lia",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92116381",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "4983bc13-e7da-4edd-a80a-231f23a68ba8",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-04T13:21:51.105Z",
+        "date_updated": "2023-09-04T10:03:17.603Z",
+        "created_at": "2023-09-04T14:12:56.834Z",
+        "updated_at": "2023-09-05T04:36:51.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53ef0a25-5bb2-4b4e-86b8-b9e98fa4cffe",
+        "role_name": "manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T17:09:50.572Z",
+        "date_updated": "2023-09-04T08:37:07.055Z",
+        "created_at": "2023-09-04T19:42:28.505Z",
+        "updated_at": "2023-09-04T17:11:59.032Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47b9a319-0d32-4a86-a6db-b6ecc881603e",
+        "role_name": "employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T22:25:32.353Z",
+        "date_updated": "2023-09-04T16:41:09.537Z",
+        "created_at": "2023-09-04T10:08:27.501Z",
+        "updated_at": "2023-09-04T16:22:37.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb798ee3-bb93-4549-8db5-a1e15c9c6956",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T14:42:37.500Z",
+        "date_updated": "2023-09-04T19:40:10.634Z",
+        "created_at": "2023-09-05T07:02:47.894Z",
+        "updated_at": "2023-09-05T01:05:31.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb972c62-b439-4b49-a171-5f0b9d703cba",
+        "role_name": "analyst",
+        "description": "Analyst role",
+        "date_created": "2023-09-04T09:05:19.159Z",
+        "date_updated": "2023-09-04T17:11:15.927Z",
+        "created_at": "2023-09-04T19:28:50.727Z",
+        "updated_at": "2023-09-04T11:58:26.407Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "bc7fc8ed-76bb-4e17-875d-741266efc759",
+        "permission_name": "read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T11:59:49.685Z",
+        "date_updated": "2023-09-04T09:05:16.510Z",
+        "created_at": "2023-09-05T01:27:23.963Z",
+        "updated_at": "2023-09-05T02:46:09.832Z",
+        "role_id": "4983bc13-e7da-4edd-a80a-231f23a68ba8"
+      },
+      {
+        "id": "e5e530b4-cb71-4aec-91d9-5ae4f63d45f7",
+        "permission_name": "write",
+        "description": "Write permission",
+        "date_created": "2023-09-05T03:05:20.263Z",
+        "date_updated": "2023-09-05T00:19:23.449Z",
+        "created_at": "2023-09-04T22:59:04.033Z",
+        "updated_at": "2023-09-04T17:33:35.267Z",
+        "role_id": "fb798ee3-bb93-4549-8db5-a1e15c9c6956"
+      },
+      {
+        "id": "80ab9fe0-9736-4f15-a8fd-2aa89b2235dc",
+        "permission_name": "delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T08:12:01.514Z",
+        "date_updated": "2023-09-05T02:43:33.550Z",
+        "created_at": "2023-09-04T08:35:09.295Z",
+        "updated_at": "2023-09-05T04:23:30.298Z",
+        "role_id": "4983bc13-e7da-4edd-a80a-231f23a68ba8"
+      },
+      {
+        "id": "401f029e-f2ae-4359-a2e9-e45862670656",
+        "permission_name": "execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T16:39:49.740Z",
+        "date_updated": "2023-09-04T08:49:31.408Z",
+        "created_at": "2023-09-05T01:46:50.639Z",
+        "updated_at": "2023-09-04T20:49:23.382Z",
+        "role_id": "4983bc13-e7da-4edd-a80a-231f23a68ba8"
+      },
+      {
+        "id": "8fd56834-d375-4871-ac91-149ed833b7e1",
+        "permission_name": "modify",
+        "description": "Modify permission",
+        "date_created": "2023-09-04T11:48:44.669Z",
+        "date_updated": "2023-09-04T17:39:29.047Z",
+        "created_at": "2023-09-04T11:04:31.453Z",
+        "updated_at": "2023-09-04T10:42:16.866Z",
+        "role_id": "fb798ee3-bb93-4549-8db5-a1e15c9c6956"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "84f01a78-66e0-4383-bf3a-5346f41625d4",
+        "created_at": "2023-09-04T13:22:22.487Z",
+        "updated_at": "2023-09-04T08:44:34.953Z",
+        "permission_id": "bc7fc8ed-76bb-4e17-875d-741266efc759",
+        "role_id": "fb972c62-b439-4b49-a171-5f0b9d703cba"
+      },
+      {
+        "id": "7baa0fae-086f-476f-9674-d39f28f472b1",
+        "created_at": "2023-09-04T22:45:38.575Z",
+        "updated_at": "2023-09-04T20:36:41.935Z",
+        "permission_id": "e5e530b4-cb71-4aec-91d9-5ae4f63d45f7",
+        "role_id": "4983bc13-e7da-4edd-a80a-231f23a68ba8"
+      },
+      {
+        "id": "9da8fd24-c80b-4ff3-bdb9-6785f4662c59",
+        "created_at": "2023-09-04T08:56:07.308Z",
+        "updated_at": "2023-09-04T20:23:09.031Z",
+        "permission_id": "8fd56834-d375-4871-ac91-149ed833b7e1",
+        "role_id": "4983bc13-e7da-4edd-a80a-231f23a68ba8"
+      },
+      {
+        "id": "f05685f3-3169-4423-9378-d16b081da5f1",
+        "created_at": "2023-09-04T22:49:36.100Z",
+        "updated_at": "2023-09-04T20:55:50.382Z",
+        "permission_id": "bc7fc8ed-76bb-4e17-875d-741266efc759",
+        "role_id": "53ef0a25-5bb2-4b4e-86b8-b9e98fa4cffe"
+      },
+      {
+        "id": "9410e185-4b67-4230-bec8-e0069bcac4fb",
+        "created_at": "2023-09-05T02:01:07.644Z",
+        "updated_at": "2023-09-04T16:43:14.391Z",
+        "permission_id": "e5e530b4-cb71-4aec-91d9-5ae4f63d45f7",
+        "role_id": "fb798ee3-bb93-4549-8db5-a1e15c9c6956"
+      }
+    ],
+    "document": [
+      {
+        "id": "f0846c9e-4a9c-414f-bfdb-cb2c73181405",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-05T00:37:28.271Z",
+        "date_updated": "2023-09-05T05:28:34.272Z",
+        "created_at": "2023-09-04T17:39:33.547Z",
+        "updated_at": "2023-09-04T22:29:02.834Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "711b4590-5242-4433-add3-67b67ad395aa",
+        "title": "Proposal",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T13:29:05.678Z",
+        "date_updated": "2023-09-05T02:21:28.278Z",
+        "created_at": "2023-09-04T20:43:42.918Z",
+        "updated_at": "2023-09-04T23:09:56.359Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a09ad42-afdc-4955-8ec3-0b6b92d8a91b",
+        "title": "Agreement",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-04T12:53:39.432Z",
+        "date_updated": "2023-09-04T14:27:27.615Z",
+        "created_at": "2023-09-04T18:19:03.899Z",
+        "updated_at": "2023-09-05T03:41:58.334Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eefdfadd-6d89-4a0b-90df-1cb450c0195a",
+        "title": "Presentation",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-05T01:05:01.960Z",
+        "date_updated": "2023-09-05T07:06:03.844Z",
+        "created_at": "2023-09-05T01:59:07.854Z",
+        "updated_at": "2023-09-05T07:36:35.012Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad5d41b4-8926-467e-8b27-e227e0d2103a",
+        "title": "Manual",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-05T05:06:45.240Z",
+        "date_updated": "2023-09-04T10:12:07.761Z",
+        "created_at": "2023-09-05T02:09:06.997Z",
+        "updated_at": "2023-09-04T16:44:19.782Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fc0d1fae-61ce-4f04-920a-c26b2e81452c",
+        "email": "Nathen_Gleichner@yahoo.com",
+        "firstName": "Alicia",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "443555c2-67c5-4bb0-9353-c08a663677b7",
+        "email": "Eloy_Schmeler86@gmail.com",
+        "firstName": "Alycia",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4769825",
+        "tenantId": null
+      },
+      {
+        "reference": "a579331d-a81b-4d92-9c0a-477f95e18758",
+        "email": "Keith3@gmail.com",
+        "firstName": "Dell",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82015446",
+        "tenantId": null
+      },
+      {
+        "reference": "fa4030df-2ebe-46d4-93cd-501a7b623f6e",
+        "email": "Lorna_Daniel@gmail.com",
+        "firstName": "Ethel",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21319922",
+        "tenantId": null
+      },
+      {
+        "reference": "9990d5f3-ab75-4ef6-9e98-887492505a29",
+        "email": "Allie_Tremblay@yahoo.com",
+        "firstName": "Nya",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1890746",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "3fc24f76-adaa-4417-b8ec-e60e4bcda119",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-05T06:50:41.281Z",
+        "date_updated": "2023-09-04T16:13:43.517Z",
+        "created_at": "2023-09-04T15:03:27.386Z",
+        "updated_at": "2023-09-05T03:18:37.413Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fa5d32c-a965-42a9-950d-2f21b12baf8f",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T16:20:29.514Z",
+        "date_updated": "2023-09-04T15:43:36.338Z",
+        "created_at": "2023-09-05T06:24:29.859Z",
+        "updated_at": "2023-09-04T21:51:18.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0d0f342-d11c-4d4b-8737-149f20e8ed32",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T10:03:32.575Z",
+        "date_updated": "2023-09-05T06:21:33.656Z",
+        "created_at": "2023-09-05T03:06:13.604Z",
+        "updated_at": "2023-09-04T21:28:48.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c66e95d1-afdf-4f22-bb66-c00124a8d4ce",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T16:16:15.848Z",
+        "date_updated": "2023-09-05T00:25:25.940Z",
+        "created_at": "2023-09-04T09:31:34.846Z",
+        "updated_at": "2023-09-04T09:18:03.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fcec356-f642-4019-84dc-17dbb03f388d",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-04T23:31:43.975Z",
+        "date_updated": "2023-09-04T09:51:34.514Z",
+        "created_at": "2023-09-04T10:04:05.995Z",
+        "updated_at": "2023-09-05T02:23:08.634Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "2e177ef7-fe16-43d0-82f5-ef4a14d7e814",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T09:29:44.822Z",
+        "date_updated": "2023-09-05T04:26:37.067Z",
+        "created_at": "2023-09-05T02:20:01.382Z",
+        "updated_at": "2023-09-05T06:53:58.466Z",
+        "role_id": "c66e95d1-afdf-4f22-bb66-c00124a8d4ce"
+      },
+      {
+        "id": "ec687d6a-acff-4e61-8120-4b7ded0d77e6",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-05T00:02:50.635Z",
+        "date_updated": "2023-09-04T14:06:33.472Z",
+        "created_at": "2023-09-04T09:34:52.866Z",
+        "updated_at": "2023-09-04T23:01:54.484Z",
+        "role_id": "3fc24f76-adaa-4417-b8ec-e60e4bcda119"
+      },
+      {
+        "id": "c079f2e6-ce53-4ac2-9cd3-09b6bbcc7fa6",
+        "permission_name": "Update",
+        "description": "Update permission",
+        "date_created": "2023-09-05T04:56:33.688Z",
+        "date_updated": "2023-09-04T17:36:13.009Z",
+        "created_at": "2023-09-04T11:43:36.122Z",
+        "updated_at": "2023-09-04T11:56:23.856Z",
+        "role_id": "8fa5d32c-a965-42a9-950d-2f21b12baf8f"
+      },
+      {
+        "id": "dd09a444-3703-4c0d-8480-cc1c93fcc5c2",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T22:43:47.992Z",
+        "date_updated": "2023-09-05T01:16:36.699Z",
+        "created_at": "2023-09-05T01:37:34.585Z",
+        "updated_at": "2023-09-04T11:26:29.774Z",
+        "role_id": "3fc24f76-adaa-4417-b8ec-e60e4bcda119"
+      },
+      {
+        "id": "914dc906-53d2-41de-9481-9cc738550eef",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T16:34:53.018Z",
+        "date_updated": "2023-09-04T17:43:31.697Z",
+        "created_at": "2023-09-04T09:40:19.464Z",
+        "updated_at": "2023-09-04T12:13:43.431Z",
+        "role_id": "c0d0f342-d11c-4d4b-8737-149f20e8ed32"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "26ae70d5-3a0a-498f-8bfd-bb3803132bd9",
+        "created_at": "2023-09-04T21:44:29.373Z",
+        "updated_at": "2023-09-05T03:00:39.373Z",
+        "permission_id": "dd09a444-3703-4c0d-8480-cc1c93fcc5c2",
+        "role_id": "c66e95d1-afdf-4f22-bb66-c00124a8d4ce"
+      },
+      {
+        "id": "23440f25-c454-406c-b795-24efbc0b8b52",
+        "created_at": "2023-09-04T12:22:37.256Z",
+        "updated_at": "2023-09-04T18:00:15.069Z",
+        "permission_id": "914dc906-53d2-41de-9481-9cc738550eef",
+        "role_id": "c66e95d1-afdf-4f22-bb66-c00124a8d4ce"
+      },
+      {
+        "id": "5460687a-3946-47d8-8c8d-20e6a3995b20",
+        "created_at": "2023-09-04T11:11:26.792Z",
+        "updated_at": "2023-09-04T17:47:56.261Z",
+        "permission_id": "c079f2e6-ce53-4ac2-9cd3-09b6bbcc7fa6",
+        "role_id": "8fa5d32c-a965-42a9-950d-2f21b12baf8f"
+      },
+      {
+        "id": "2d08ee29-e763-4ce5-913b-592b09099eff",
+        "created_at": "2023-09-05T01:47:18.122Z",
+        "updated_at": "2023-09-04T20:03:43.975Z",
+        "permission_id": "c079f2e6-ce53-4ac2-9cd3-09b6bbcc7fa6",
+        "role_id": "3fc24f76-adaa-4417-b8ec-e60e4bcda119"
+      },
+      {
+        "id": "1f2fa91b-7621-42f7-b8b4-9538ce9ac971",
+        "created_at": "2023-09-04T14:39:38.899Z",
+        "updated_at": "2023-09-04T16:49:27.781Z",
+        "permission_id": "ec687d6a-acff-4e61-8120-4b7ded0d77e6",
+        "role_id": "3fcec356-f642-4019-84dc-17dbb03f388d"
+      }
+    ],
+    "document": [
+      {
+        "id": "065c9eee-665a-427e-b85d-3d3879a58d63",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-04T09:56:05.819Z",
+        "date_updated": "2023-09-05T04:07:40.537Z",
+        "created_at": "2023-09-04T16:14:15.433Z",
+        "updated_at": "2023-09-04T22:53:22.824Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "721db304-71f3-4077-8328-c39e41482ae2",
+        "title": "Proposal",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "date_created": "2023-09-04T12:55:15.136Z",
+        "date_updated": "2023-09-04T12:11:20.168Z",
+        "created_at": "2023-09-04T22:30:12.467Z",
+        "updated_at": "2023-09-04T18:35:02.006Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bb09b5e-8fa3-4c36-983c-112bb2247728",
+        "title": "Contract",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "date_created": "2023-09-04T08:37:13.678Z",
+        "date_updated": "2023-09-05T02:52:34.300Z",
+        "created_at": "2023-09-04T19:11:55.919Z",
+        "updated_at": "2023-09-04T12:16:19.056Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7c8c011-e36d-4b92-b570-31a332870522",
+        "title": "Presentation",
+        "content": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "date_created": "2023-09-05T00:51:26.655Z",
+        "date_updated": "2023-09-04T10:58:30.177Z",
+        "created_at": "2023-09-05T05:23:24.837Z",
+        "updated_at": "2023-09-04T14:38:48.652Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "409013c3-4cd0-46bf-bcd8-62c428ecbddb",
+        "title": "Manual",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "date_created": "2023-09-05T01:48:10.845Z",
+        "date_updated": "2023-09-05T07:03:37.554Z",
+        "created_at": "2023-09-05T00:08:11.393Z",
+        "updated_at": "2023-09-05T06:32:12.695Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cddd2b46-2d38-4d29-9ca3-df8d14eab84a",
+        "email": "Florine.Wehner@yahoo.com",
+        "firstName": "Nasir",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1098.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8c09a76-6929-4aa9-b8e7-64b9cd93ee37",
+        "email": "Velma76@hotmail.com",
+        "firstName": "Vicente",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86367857",
+        "tenantId": null
+      },
+      {
+        "reference": "93c2a9e4-21b4-45ba-8d57-db894f0cf4f6",
+        "email": "Marcellus_Botsford71@yahoo.com",
+        "firstName": "Winston",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a10a9411-d48e-4c23-bbc3-7623d156c4af",
+        "email": "Emily_Schuppe80@hotmail.com",
+        "firstName": "Eli",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92852198",
+        "tenantId": null
+      },
+      {
+        "reference": "8bb67678-61b5-49fb-9530-fb05639864c9",
+        "email": "Broderick.Johnson-Hessel27@hotmail.com",
+        "firstName": "Lempi",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "7753e3f7-0dcb-4b09-b202-b22de52a5d02",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-05T00:30:28.268Z",
+        "date_updated": "2023-09-05T07:05:11.921Z",
+        "created_at": "2023-09-05T03:12:59.786Z",
+        "updated_at": "2023-09-04T10:00:14.866Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00141b38-37fe-4b50-9906-5a8168060805",
+        "role_name": "manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T18:05:18.631Z",
+        "date_updated": "2023-09-04T19:59:39.020Z",
+        "created_at": "2023-09-04T12:48:59.352Z",
+        "updated_at": "2023-09-05T00:59:29.575Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82c2dc06-9f6c-4e1a-a353-9cb9ed0191e1",
+        "role_name": "employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T15:00:10.294Z",
+        "date_updated": "2023-09-05T04:51:13.991Z",
+        "created_at": "2023-09-04T09:06:55.415Z",
+        "updated_at": "2023-09-05T06:52:43.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "685bc971-470e-4c42-9b4f-74a1e2a009fb",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T15:01:50.449Z",
+        "date_updated": "2023-09-05T01:27:34.374Z",
+        "created_at": "2023-09-04T18:36:40.721Z",
+        "updated_at": "2023-09-05T01:51:21.669Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a052461f-0155-4c2e-9fdd-b367819e8a13",
+        "role_name": "team_lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-04T08:25:57.204Z",
+        "date_updated": "2023-09-04T08:47:50.931Z",
+        "created_at": "2023-09-04T13:55:19.128Z",
+        "updated_at": "2023-09-05T07:40:22.328Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "4ce20fe1-3059-4235-98dc-c50e8e181f09",
+        "permission_name": "create",
+        "description": "Permission to create",
+        "date_created": "2023-09-05T06:57:18.438Z",
+        "date_updated": "2023-09-04T18:32:59.963Z",
+        "created_at": "2023-09-04T23:36:56.461Z",
+        "updated_at": "2023-09-05T06:57:53.924Z",
+        "role_id": "685bc971-470e-4c42-9b4f-74a1e2a009fb"
+      },
+      {
+        "id": "bcb9e294-0c2c-41ae-8a4d-b09351658a73",
+        "permission_name": "read",
+        "description": "Permission to read",
+        "date_created": "2023-09-05T02:59:18.631Z",
+        "date_updated": "2023-09-04T19:59:09.074Z",
+        "created_at": "2023-09-05T05:54:29.152Z",
+        "updated_at": "2023-09-04T13:10:53.929Z",
+        "role_id": "7753e3f7-0dcb-4b09-b202-b22de52a5d02"
+      },
+      {
+        "id": "c2986461-fb73-4948-adbf-263cb22327f8",
+        "permission_name": "update",
+        "description": "Permission to update",
+        "date_created": "2023-09-04T11:21:14.059Z",
+        "date_updated": "2023-09-04T13:20:15.164Z",
+        "created_at": "2023-09-04T15:09:53.204Z",
+        "updated_at": "2023-09-04T13:49:09.422Z",
+        "role_id": "7753e3f7-0dcb-4b09-b202-b22de52a5d02"
+      },
+      {
+        "id": "d46d1775-28d1-4fad-84a3-d78884dd0ad7",
+        "permission_name": "delete",
+        "description": "Permission to delete",
+        "date_created": "2023-09-04T15:20:28.445Z",
+        "date_updated": "2023-09-04T14:53:54.391Z",
+        "created_at": "2023-09-05T05:23:52.195Z",
+        "updated_at": "2023-09-04T21:01:13.656Z",
+        "role_id": "00141b38-37fe-4b50-9906-5a8168060805"
+      },
+      {
+        "id": "84dae439-d2b8-45ed-9f50-3fcc00e29fd5",
+        "permission_name": "manage",
+        "description": "Permission to manage",
+        "date_created": "2023-09-05T07:07:30.306Z",
+        "date_updated": "2023-09-04T16:46:23.538Z",
+        "created_at": "2023-09-05T06:44:23.050Z",
+        "updated_at": "2023-09-04T23:59:21.987Z",
+        "role_id": "00141b38-37fe-4b50-9906-5a8168060805"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "6623a36f-fac2-489d-adf0-61bc825aa32a",
+        "created_at": "2023-09-04T19:41:07.048Z",
+        "updated_at": "2023-09-05T03:27:50.838Z",
+        "permission_id": "d46d1775-28d1-4fad-84a3-d78884dd0ad7",
+        "role_id": "82c2dc06-9f6c-4e1a-a353-9cb9ed0191e1"
+      },
+      {
+        "id": "e7d41be1-75d2-49c1-9879-0d06e9615d4d",
+        "created_at": "2023-09-05T05:58:56.667Z",
+        "updated_at": "2023-09-04T13:46:52.198Z",
+        "permission_id": "c2986461-fb73-4948-adbf-263cb22327f8",
+        "role_id": "82c2dc06-9f6c-4e1a-a353-9cb9ed0191e1"
+      },
+      {
+        "id": "0411c80e-df01-4b99-be5e-dc55c9ece55d",
+        "created_at": "2023-09-05T04:43:59.996Z",
+        "updated_at": "2023-09-04T08:31:53.167Z",
+        "permission_id": "84dae439-d2b8-45ed-9f50-3fcc00e29fd5",
+        "role_id": "7753e3f7-0dcb-4b09-b202-b22de52a5d02"
+      },
+      {
+        "id": "921e60bf-2a6f-42a8-99ab-8b0bdde600bd",
+        "created_at": "2023-09-04T16:16:03.287Z",
+        "updated_at": "2023-09-05T04:03:28.686Z",
+        "permission_id": "4ce20fe1-3059-4235-98dc-c50e8e181f09",
+        "role_id": "a052461f-0155-4c2e-9fdd-b367819e8a13"
+      },
+      {
+        "id": "637d19fd-bd71-4f6d-90f4-65d90ea83d6d",
+        "created_at": "2023-09-04T09:38:05.585Z",
+        "updated_at": "2023-09-05T04:19:52.846Z",
+        "permission_id": "c2986461-fb73-4948-adbf-263cb22327f8",
+        "role_id": "00141b38-37fe-4b50-9906-5a8168060805"
+      }
+    ],
+    "document": [
+      {
+        "id": "c55ee171-4535-401d-879e-e525c2609abe",
+        "title": "Document 1",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-04T18:54:56.719Z",
+        "date_updated": "2023-09-04T22:47:27.489Z",
+        "created_at": "2023-09-04T11:42:11.452Z",
+        "updated_at": "2023-09-05T05:47:48.312Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fa96ab7-a63c-47ed-9bdd-28efc4a320f5",
+        "title": "Document 2",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T22:35:40.098Z",
+        "date_updated": "2023-09-04T22:42:27.433Z",
+        "created_at": "2023-09-04T11:19:26.892Z",
+        "updated_at": "2023-09-04T21:57:44.004Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39d7b6fa-f289-40b9-8128-b6985fad6f0c",
+        "title": "Document 3",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-05T00:46:27.666Z",
+        "date_updated": "2023-09-04T09:03:41.760Z",
+        "created_at": "2023-09-04T12:17:04.982Z",
+        "updated_at": "2023-09-05T01:34:56.365Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e376ebbc-3394-4050-b9c4-4c21f4eac327",
+        "title": "Document 4",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-04T14:57:31.633Z",
+        "date_updated": "2023-09-04T20:47:16.581Z",
+        "created_at": "2023-09-04T23:06:15.138Z",
+        "updated_at": "2023-09-04T21:45:41.694Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1758cf17-9885-4469-9d06-e5fe8aa84d64",
+        "title": "Document 5",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-05T05:06:04.750Z",
+        "date_updated": "2023-09-04T17:49:10.070Z",
+        "created_at": "2023-09-04T22:41:43.061Z",
+        "updated_at": "2023-09-04T16:40:11.044Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e4b88e4-5989-463e-b3bf-26c1abc251b4",
+        "email": "Eve_Brekke@gmail.com",
+        "firstName": "Katlynn",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76702071",
+        "tenantId": null
+      },
+      {
+        "reference": "182b933f-a76f-4f4b-8426-e47517960cc8",
+        "email": "Wilma91@yahoo.com",
+        "firstName": "Cora",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76422e42-fde5-4375-b863-5991d26c5992",
+        "email": "Kane38@yahoo.com",
+        "firstName": "Louie",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/715.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4016f4ba-05ec-4331-a018-840e6ed7845e",
+        "email": "Marietta.Nicolas-Ward39@gmail.com",
+        "firstName": "Mckayla",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758822",
+        "tenantId": null
+      },
+      {
+        "reference": "d0fc5093-90fe-49ef-a9de-6d4fb9b258ae",
+        "email": "Casandra.Frami52@gmail.com",
+        "firstName": "Giuseppe",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48607865",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "142b73e4-a018-47b3-be68-036c889c2578",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-04T09:47:32.252Z",
+        "date_updated": "2023-09-05T05:12:57.017Z",
+        "created_at": "2023-09-04T16:30:28.816Z",
+        "updated_at": "2023-09-05T07:56:21.042Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c80b279-8e6d-4e1f-8dbd-7343d65eeab1",
+        "role_name": "manager",
+        "description": "Manager role",
+        "date_created": "2023-09-05T01:24:02.757Z",
+        "date_updated": "2023-09-04T15:16:31.537Z",
+        "created_at": "2023-09-04T22:33:18.164Z",
+        "updated_at": "2023-09-05T06:16:00.246Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a55de45-2af7-4e72-9347-65b8dfac8aca",
+        "role_name": "employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T20:02:32.174Z",
+        "date_updated": "2023-09-04T13:19:52.890Z",
+        "created_at": "2023-09-04T23:29:05.928Z",
+        "updated_at": "2023-09-04T15:04:18.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61974bfc-858e-4c36-95bd-cecedce406ec",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T22:14:13.607Z",
+        "date_updated": "2023-09-04T14:33:13.479Z",
+        "created_at": "2023-09-04T20:47:10.644Z",
+        "updated_at": "2023-09-05T05:46:26.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c7c6825-e030-409e-9a91-60954ddba15b",
+        "role_name": "assistant",
+        "description": "Assistant role",
+        "date_created": "2023-09-04T17:51:16.852Z",
+        "date_updated": "2023-09-04T09:37:13.485Z",
+        "created_at": "2023-09-04T13:10:43.147Z",
+        "updated_at": "2023-09-04T18:48:33.649Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "52eba60f-0239-44f9-80ca-1aff87b601ef",
+        "permission_name": "read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T17:32:09.812Z",
+        "date_updated": "2023-09-05T04:42:59.220Z",
+        "created_at": "2023-09-05T03:05:07.561Z",
+        "updated_at": "2023-09-04T14:55:32.874Z",
+        "role_id": "6c80b279-8e6d-4e1f-8dbd-7343d65eeab1"
+      },
+      {
+        "id": "3bca7ff4-e396-4a2b-9664-641e90a75e89",
+        "permission_name": "write",
+        "description": "Write permission",
+        "date_created": "2023-09-04T22:35:04.407Z",
+        "date_updated": "2023-09-05T00:38:55.300Z",
+        "created_at": "2023-09-05T02:58:02.967Z",
+        "updated_at": "2023-09-04T22:53:07.238Z",
+        "role_id": "142b73e4-a018-47b3-be68-036c889c2578"
+      },
+      {
+        "id": "b0863e79-46b2-4a1d-bded-42e495c0ee05",
+        "permission_name": "delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T21:09:40.271Z",
+        "date_updated": "2023-09-04T15:04:33.337Z",
+        "created_at": "2023-09-04T18:23:55.702Z",
+        "updated_at": "2023-09-05T06:11:25.984Z",
+        "role_id": "142b73e4-a018-47b3-be68-036c889c2578"
+      },
+      {
+        "id": "42560764-fc1a-4f47-a51d-97868adea003",
+        "permission_name": "update",
+        "description": "Update permission",
+        "date_created": "2023-09-04T08:23:38.558Z",
+        "date_updated": "2023-09-04T08:28:49.083Z",
+        "created_at": "2023-09-05T05:44:56.946Z",
+        "updated_at": "2023-09-05T07:53:56.065Z",
+        "role_id": "6c80b279-8e6d-4e1f-8dbd-7343d65eeab1"
+      },
+      {
+        "id": "55e4a172-d599-4f11-8cfc-6b279d4398c7",
+        "permission_name": "execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T09:10:46.177Z",
+        "date_updated": "2023-09-04T21:28:17.105Z",
+        "created_at": "2023-09-04T10:24:48.860Z",
+        "updated_at": "2023-09-05T07:12:47.507Z",
+        "role_id": "61974bfc-858e-4c36-95bd-cecedce406ec"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "401609a9-327a-42a1-b803-d46736707ff9",
+        "created_at": "2023-09-04T23:26:05.858Z",
+        "updated_at": "2023-09-04T15:55:44.074Z",
+        "permission_id": "42560764-fc1a-4f47-a51d-97868adea003",
+        "role_id": "9c7c6825-e030-409e-9a91-60954ddba15b"
+      },
+      {
+        "id": "ef8f134b-7746-4b05-aedf-7279f4eefd6f",
+        "created_at": "2023-09-05T07:40:35.010Z",
+        "updated_at": "2023-09-05T00:18:06.261Z",
+        "permission_id": "42560764-fc1a-4f47-a51d-97868adea003",
+        "role_id": "61974bfc-858e-4c36-95bd-cecedce406ec"
+      },
+      {
+        "id": "49d58581-908b-41d5-a7bb-8f3d17e2bb3c",
+        "created_at": "2023-09-05T07:53:48.133Z",
+        "updated_at": "2023-09-05T02:03:44.513Z",
+        "permission_id": "55e4a172-d599-4f11-8cfc-6b279d4398c7",
+        "role_id": "6c80b279-8e6d-4e1f-8dbd-7343d65eeab1"
+      },
+      {
+        "id": "2d9f0a52-753e-482d-bc1e-a6123ff0d539",
+        "created_at": "2023-09-04T21:56:47.622Z",
+        "updated_at": "2023-09-04T10:59:33.167Z",
+        "permission_id": "42560764-fc1a-4f47-a51d-97868adea003",
+        "role_id": "9c7c6825-e030-409e-9a91-60954ddba15b"
+      },
+      {
+        "id": "d923c800-ef46-4e2e-845b-e49846beccf0",
+        "created_at": "2023-09-04T14:16:17.127Z",
+        "updated_at": "2023-09-04T13:26:16.830Z",
+        "permission_id": "3bca7ff4-e396-4a2b-9664-641e90a75e89",
+        "role_id": "9a55de45-2af7-4e72-9347-65b8dfac8aca"
+      }
+    ],
+    "document": [
+      {
+        "id": "f75d7724-ba3c-4db2-bc63-24f0e74b5e36",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-05T07:31:41.033Z",
+        "date_updated": "2023-09-04T15:56:49.038Z",
+        "created_at": "2023-09-05T03:49:15.260Z",
+        "updated_at": "2023-09-05T06:04:17.996Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "226f8215-1f4f-4775-8c5d-55abc6f677bb",
+        "title": "Proposal",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "date_created": "2023-09-04T15:17:31.330Z",
+        "date_updated": "2023-09-05T02:17:38.501Z",
+        "created_at": "2023-09-05T01:28:10.418Z",
+        "updated_at": "2023-09-04T09:02:28.316Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1451b757-aa7a-4b9a-b65c-26e5d4121a11",
+        "title": "Contract",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "date_created": "2023-09-04T15:35:45.601Z",
+        "date_updated": "2023-09-04T11:55:36.073Z",
+        "created_at": "2023-09-04T14:06:45.666Z",
+        "updated_at": "2023-09-05T00:25:16.403Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe317ce9-72cc-43f5-be4c-5d8f8435b87c",
+        "title": "Presentation",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "date_created": "2023-09-05T07:51:17.413Z",
+        "date_updated": "2023-09-04T18:46:13.242Z",
+        "created_at": "2023-09-04T09:18:34.634Z",
+        "updated_at": "2023-09-04T14:46:34.082Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb845159-21a4-4af8-a4f6-54e660dcc6ad",
+        "title": "Manual",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "date_created": "2023-09-04T18:24:25.071Z",
+        "date_updated": "2023-09-05T06:57:54.280Z",
+        "created_at": "2023-09-04T10:46:14.635Z",
+        "updated_at": "2023-09-05T05:52:03.874Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dc255874-f037-49f2-a92d-419a24fb336a",
+        "email": "Darien.Grady91@gmail.com",
+        "firstName": "Kim",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47509807",
+        "tenantId": null
+      },
+      {
+        "reference": "3228b3d8-02d9-4a47-a720-cfb05d76d9f0",
+        "email": "Carlie.Aufderhar@hotmail.com",
+        "firstName": "Andres",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9570430",
+        "tenantId": null
+      },
+      {
+        "reference": "8098b106-b167-4001-b354-e67eec838a6e",
+        "email": "Luther.Glover79@gmail.com",
+        "firstName": "Wiley",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3db23b49-c615-4889-864d-5b10ba06cdd5",
+        "email": "Orlo.Howell-Swift@yahoo.com",
+        "firstName": "Etha",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1ef86bef-591d-4e56-8a55-9ea3086885e6",
+        "email": "Mabelle_Anderson@gmail.com",
+        "firstName": "Ward",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89025089",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-05T06:07:08.742Z",
+        "date_updated": "2023-09-04T11:46:55.883Z",
+        "created_at": "2023-09-04T17:56:17.440Z",
+        "updated_at": "2023-09-04T10:57:29.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef13e91b-648d-4bad-ac16-585da3a3f4e0",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T16:07:47.936Z",
+        "date_updated": "2023-09-05T00:58:37.082Z",
+        "created_at": "2023-09-04T18:24:31.660Z",
+        "updated_at": "2023-09-04T16:54:42.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bebf763e-02ab-4f7d-93b7-b82e9efdc98a",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-05T02:36:13.818Z",
+        "date_updated": "2023-09-05T03:43:56.943Z",
+        "created_at": "2023-09-04T13:57:39.880Z",
+        "updated_at": "2023-09-04T14:47:58.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f378d8c-e792-420d-afb6-cd5948e4faed",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-05T04:20:51.573Z",
+        "date_updated": "2023-09-05T01:29:07.283Z",
+        "created_at": "2023-09-05T05:41:29.206Z",
+        "updated_at": "2023-09-04T10:13:32.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8dfec67-31e8-4402-8987-91f7883af041",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-04T21:13:54.789Z",
+        "date_updated": "2023-09-04T20:25:26.809Z",
+        "created_at": "2023-09-04T14:20:01.887Z",
+        "updated_at": "2023-09-04T09:02:15.683Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "0d8d0f1b-db9c-4b49-a1e9-8142cb6b0818",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T09:18:30.065Z",
+        "date_updated": "2023-09-04T21:41:54.002Z",
+        "created_at": "2023-09-05T08:05:20.757Z",
+        "updated_at": "2023-09-05T02:57:47.568Z",
+        "role_id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826"
+      },
+      {
+        "id": "b09de757-8071-43b4-bed1-8789a4877200",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-04T19:45:15.781Z",
+        "date_updated": "2023-09-04T12:54:16.280Z",
+        "created_at": "2023-09-05T04:17:28.183Z",
+        "updated_at": "2023-09-05T03:33:52.787Z",
+        "role_id": "bebf763e-02ab-4f7d-93b7-b82e9efdc98a"
+      },
+      {
+        "id": "a19e2bdd-0a17-4d4c-8bc7-c10bac9c0c66",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T11:52:39.780Z",
+        "date_updated": "2023-09-04T20:42:54.453Z",
+        "created_at": "2023-09-05T02:56:17.303Z",
+        "updated_at": "2023-09-05T05:33:13.965Z",
+        "role_id": "f8dfec67-31e8-4402-8987-91f7883af041"
+      },
+      {
+        "id": "bc96ca30-10f9-47f2-879c-e41713478e84",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T22:23:47.448Z",
+        "date_updated": "2023-09-05T02:53:44.470Z",
+        "created_at": "2023-09-05T07:23:17.384Z",
+        "updated_at": "2023-09-05T06:25:15.568Z",
+        "role_id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826"
+      },
+      {
+        "id": "2115563f-08a3-412f-ab87-bb16d63d0d39",
+        "permission_name": "Admin",
+        "description": "Admin permission",
+        "date_created": "2023-09-04T23:51:56.762Z",
+        "date_updated": "2023-09-04T11:24:20.765Z",
+        "created_at": "2023-09-05T02:46:34.897Z",
+        "updated_at": "2023-09-05T07:29:21.399Z",
+        "role_id": "ef13e91b-648d-4bad-ac16-585da3a3f4e0"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "b7e8281f-f925-4161-a097-285f152876fb",
+        "created_at": "2023-09-04T12:48:06.160Z",
+        "updated_at": "2023-09-04T18:07:45.452Z",
+        "permission_id": "a19e2bdd-0a17-4d4c-8bc7-c10bac9c0c66",
+        "role_id": "8f378d8c-e792-420d-afb6-cd5948e4faed"
+      },
+      {
+        "id": "dc970a3d-eb57-4491-817d-aab3ea9c6f31",
+        "created_at": "2023-09-04T13:07:11.393Z",
+        "updated_at": "2023-09-05T02:46:32.518Z",
+        "permission_id": "a19e2bdd-0a17-4d4c-8bc7-c10bac9c0c66",
+        "role_id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826"
+      },
+      {
+        "id": "8acbdd42-f00b-4147-bd2e-ec3a285621d1",
+        "created_at": "2023-09-05T01:54:41.837Z",
+        "updated_at": "2023-09-04T23:33:42.735Z",
+        "permission_id": "b09de757-8071-43b4-bed1-8789a4877200",
+        "role_id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826"
+      },
+      {
+        "id": "7c807f59-0250-43b2-837e-72bd07212035",
+        "created_at": "2023-09-04T13:02:29.904Z",
+        "updated_at": "2023-09-05T01:43:30.888Z",
+        "permission_id": "bc96ca30-10f9-47f2-879c-e41713478e84",
+        "role_id": "f7581b6e-2759-4d6e-b131-ff5a8d60a826"
+      },
+      {
+        "id": "3907754c-97da-4d64-b4e2-2a25c682036d",
+        "created_at": "2023-09-04T14:24:37.251Z",
+        "updated_at": "2023-09-05T00:36:42.159Z",
+        "permission_id": "a19e2bdd-0a17-4d4c-8bc7-c10bac9c0c66",
+        "role_id": "f8dfec67-31e8-4402-8987-91f7883af041"
+      }
+    ],
+    "document": [
+      {
+        "id": "eeceb8ed-5497-4be2-8671-adf3d8b1b9de",
+        "title": "Introduction",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-05T04:37:00.062Z",
+        "date_updated": "2023-09-05T04:22:25.363Z",
+        "created_at": "2023-09-04T17:56:12.074Z",
+        "updated_at": "2023-09-04T15:01:05.224Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b97eca62-0bb2-4462-a52a-c30e4f0a5378",
+        "title": "User Manual",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T09:23:03.091Z",
+        "date_updated": "2023-09-04T23:09:11.649Z",
+        "created_at": "2023-09-05T04:19:23.521Z",
+        "updated_at": "2023-09-04T14:48:59.826Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "615aa995-e183-43ee-a295-9b0cebd6b69a",
+        "title": "Technical Specification",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-05T05:14:47.865Z",
+        "date_updated": "2023-09-04T18:59:22.060Z",
+        "created_at": "2023-09-05T01:39:10.240Z",
+        "updated_at": "2023-09-05T06:50:36.931Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c66d033c-57ef-4941-b666-77e08a388de8",
+        "title": "Proposal",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-05T07:19:17.772Z",
+        "date_updated": "2023-09-05T02:25:25.880Z",
+        "created_at": "2023-09-04T23:27:02.111Z",
+        "updated_at": "2023-09-04T15:53:07.003Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8e1c4c6-8865-4918-a988-2b41960aefd3",
+        "title": "Report",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-05T01:14:32.008Z",
+        "date_updated": "2023-09-05T07:53:39.969Z",
+        "created_at": "2023-09-04T20:08:13.984Z",
+        "updated_at": "2023-09-04T13:04:59.058Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e84b3e29-3952-4c2b-af1f-142b44a218a0",
+        "email": "Jany67@gmail.com",
+        "firstName": "Gaetano",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98704115",
+        "tenantId": null
+      },
+      {
+        "reference": "41325641-710d-4a57-909f-6be42b288b1e",
+        "email": "Rocio_Parisian92@gmail.com",
+        "firstName": "Makenna",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/340.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a9af640-ed1c-4355-b02d-808e1bea1ca7",
+        "email": "Tara_Turcotte34@gmail.com",
+        "firstName": "Jarrett",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/623.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58b84a6e-df23-4647-bee8-66de599c4829",
+        "email": "Elton.Mayer@yahoo.com",
+        "firstName": "Tyson",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21e987ed-6e38-49f6-8454-bf0a59e6ccd1",
+        "email": "Thurman.Dicki@hotmail.com",
+        "firstName": "Jerald",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94237982",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "b881668d-dfd4-491a-ac11-583b285e9cb1",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-04T14:06:25.886Z",
+        "date_updated": "2023-09-04T22:09:21.942Z",
+        "created_at": "2023-09-05T04:28:26.320Z",
+        "updated_at": "2023-09-04T20:29:52.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "636a59c9-3a58-4a86-b589-aac8db92d287",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-05T06:05:13.727Z",
+        "date_updated": "2023-09-04T14:17:40.741Z",
+        "created_at": "2023-09-05T01:59:37.172Z",
+        "updated_at": "2023-09-05T02:33:25.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05ad46fe-14d8-47cd-8610-4147b70fe1f0",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T10:55:30.529Z",
+        "date_updated": "2023-09-04T22:39:40.314Z",
+        "created_at": "2023-09-04T13:12:33.650Z",
+        "updated_at": "2023-09-05T00:35:37.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "958648a4-e1c3-490a-a0b8-6656fa951411",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T10:29:33.954Z",
+        "date_updated": "2023-09-04T19:50:34.974Z",
+        "created_at": "2023-09-05T03:05:52.165Z",
+        "updated_at": "2023-09-04T22:41:27.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08562a5a-62e2-4ee5-a490-5b8b6879f4b5",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-05T05:56:18.743Z",
+        "date_updated": "2023-09-04T17:59:06.198Z",
+        "created_at": "2023-09-05T06:24:03.671Z",
+        "updated_at": "2023-09-04T14:28:59.444Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "fb5c75fc-ff2e-4dbe-bf7e-33427f48a099",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-05T03:44:00.056Z",
+        "date_updated": "2023-09-04T15:18:30.209Z",
+        "created_at": "2023-09-05T05:20:38.801Z",
+        "updated_at": "2023-09-05T07:15:13.732Z",
+        "role_id": "05ad46fe-14d8-47cd-8610-4147b70fe1f0"
+      },
+      {
+        "id": "813320d6-96e5-4ed7-a44c-d367bfccee15",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-04T12:07:48.621Z",
+        "date_updated": "2023-09-05T01:46:20.282Z",
+        "created_at": "2023-09-04T13:49:09.801Z",
+        "updated_at": "2023-09-05T06:24:52.015Z",
+        "role_id": "b881668d-dfd4-491a-ac11-583b285e9cb1"
+      },
+      {
+        "id": "6a78eadc-064d-40fe-97f7-76496ec4c337",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T20:38:31.157Z",
+        "date_updated": "2023-09-04T20:12:32.749Z",
+        "created_at": "2023-09-05T01:36:02.090Z",
+        "updated_at": "2023-09-04T08:57:42.004Z",
+        "role_id": "08562a5a-62e2-4ee5-a490-5b8b6879f4b5"
+      },
+      {
+        "id": "834f8010-3237-4992-822a-ce3bdf2e5e03",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-05T02:44:06.095Z",
+        "date_updated": "2023-09-04T15:06:35.392Z",
+        "created_at": "2023-09-05T04:24:10.287Z",
+        "updated_at": "2023-09-04T16:56:26.912Z",
+        "role_id": "958648a4-e1c3-490a-a0b8-6656fa951411"
+      },
+      {
+        "id": "44822a91-2aae-44a5-af30-42ab6ed600ba",
+        "permission_name": "Admin",
+        "description": "Admin permission",
+        "date_created": "2023-09-05T00:04:05.061Z",
+        "date_updated": "2023-09-04T12:33:17.985Z",
+        "created_at": "2023-09-05T04:55:00.331Z",
+        "updated_at": "2023-09-04T13:10:30.870Z",
+        "role_id": "636a59c9-3a58-4a86-b589-aac8db92d287"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "9335948e-8565-4b37-9f03-ec369c768263",
+        "created_at": "2023-09-04T23:56:00.139Z",
+        "updated_at": "2023-09-05T08:07:59.101Z",
+        "permission_id": "fb5c75fc-ff2e-4dbe-bf7e-33427f48a099",
+        "role_id": "08562a5a-62e2-4ee5-a490-5b8b6879f4b5"
+      },
+      {
+        "id": "20581eee-ca8b-4ec3-ac36-11c97b7f747a",
+        "created_at": "2023-09-04T18:30:37.353Z",
+        "updated_at": "2023-09-04T22:57:40.386Z",
+        "permission_id": "834f8010-3237-4992-822a-ce3bdf2e5e03",
+        "role_id": "636a59c9-3a58-4a86-b589-aac8db92d287"
+      },
+      {
+        "id": "9fc1909c-7591-4e11-a3f6-b3c9617d1fdb",
+        "created_at": "2023-09-04T09:57:50.799Z",
+        "updated_at": "2023-09-05T01:10:47.869Z",
+        "permission_id": "813320d6-96e5-4ed7-a44c-d367bfccee15",
+        "role_id": "b881668d-dfd4-491a-ac11-583b285e9cb1"
+      },
+      {
+        "id": "c827c3ec-534d-4cdd-87fa-707f592c4272",
+        "created_at": "2023-09-04T18:32:43.698Z",
+        "updated_at": "2023-09-04T09:34:14.482Z",
+        "permission_id": "fb5c75fc-ff2e-4dbe-bf7e-33427f48a099",
+        "role_id": "05ad46fe-14d8-47cd-8610-4147b70fe1f0"
+      },
+      {
+        "id": "114594c1-1def-4b85-b6d2-4ea6e5db66c6",
+        "created_at": "2023-09-05T04:02:47.451Z",
+        "updated_at": "2023-09-05T07:55:42.947Z",
+        "permission_id": "fb5c75fc-ff2e-4dbe-bf7e-33427f48a099",
+        "role_id": "08562a5a-62e2-4ee5-a490-5b8b6879f4b5"
+      }
+    ],
+    "document": [
+      {
+        "id": "3793f809-a941-4415-a214-9e0a2b79cba6",
+        "title": "Document 1",
+        "content": "Lorem ipsum dolor sit amet",
+        "date_created": "2023-09-04T19:20:15.981Z",
+        "date_updated": "2023-09-05T01:50:14.554Z",
+        "created_at": "2023-09-04T22:13:04.779Z",
+        "updated_at": "2023-09-04T21:03:55.227Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "409a3fb7-12f0-4e1c-bc0a-a4f80f64623a",
+        "title": "Document 2",
+        "content": "Consectetur adipiscing elit",
+        "date_created": "2023-09-04T19:54:41.128Z",
+        "date_updated": "2023-09-04T21:04:58.616Z",
+        "created_at": "2023-09-04T16:46:38.102Z",
+        "updated_at": "2023-09-05T02:33:06.148Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44ed42ae-7e4a-44f6-a6c0-be96064d823a",
+        "title": "Document 3",
+        "content": "Sed do eiusmod tempor incididunt",
+        "date_created": "2023-09-05T03:59:56.072Z",
+        "date_updated": "2023-09-05T06:11:59.263Z",
+        "created_at": "2023-09-05T02:38:43.500Z",
+        "updated_at": "2023-09-04T19:17:09.704Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f85096f5-ae9a-4cba-a0b8-cbe060acb065",
+        "title": "Document 4",
+        "content": "Ut labore et dolore magna aliqua",
+        "date_created": "2023-09-04T11:25:33.947Z",
+        "date_updated": "2023-09-04T17:18:48.485Z",
+        "created_at": "2023-09-04T21:54:03.758Z",
+        "updated_at": "2023-09-05T02:13:43.308Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55b7b62c-d42b-4e9b-9f01-b70efb393b4f",
+        "title": "Document 5",
+        "content": "Ut enim ad minim veniam",
+        "date_created": "2023-09-04T09:37:25.979Z",
+        "date_updated": "2023-09-04T15:09:41.137Z",
+        "created_at": "2023-09-05T07:43:40.044Z",
+        "updated_at": "2023-09-05T08:09:39.931Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a68d9c59-cad1-4b4d-99ec-01c8086d4c52",
+        "email": "Pablo77@hotmail.com",
+        "firstName": "Carolyne",
+        "lastName": "Hahn-Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35736153",
+        "tenantId": null
+      },
+      {
+        "reference": "387b83e3-8cd0-459e-8e31-14602ce8f51d",
+        "email": "Vernice26@hotmail.com",
+        "firstName": "Joaquin",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94555613",
+        "tenantId": null
+      },
+      {
+        "reference": "0dfe40bf-fdbb-4aa0-8e8a-661a37393455",
+        "email": "Russell7@hotmail.com",
+        "firstName": "Archibald",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/939.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab0dccbd-8e4a-4f60-b89f-757b2ee9acc5",
+        "email": "Hillard_Funk55@yahoo.com",
+        "firstName": "Houston",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1fb5adf7-7583-49f3-b727-5fd2e660c0a4",
+        "email": "Jordyn24@hotmail.com",
+        "firstName": "Blanche",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "20949932-97f1-4dd3-bd25-6c8623486866",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "date_created": "2023-09-04T09:07:37.802Z",
+        "date_updated": "2023-09-04T17:41:20.105Z",
+        "created_at": "2023-09-04T22:55:58.488Z",
+        "updated_at": "2023-09-04T23:51:21.071Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289b8417-5494-40ad-853c-8594585c2511",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "date_created": "2023-09-04T12:25:01.666Z",
+        "date_updated": "2023-09-04T17:07:22.253Z",
+        "created_at": "2023-09-05T03:34:23.541Z",
+        "updated_at": "2023-09-04T14:17:08.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61914e38-f64d-46a1-9415-d976bdfe8f76",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "date_created": "2023-09-04T10:55:58.877Z",
+        "date_updated": "2023-09-04T12:10:51.818Z",
+        "created_at": "2023-09-04T11:41:00.910Z",
+        "updated_at": "2023-09-04T17:13:58.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "048f3ea2-804c-4c70-ac1e-361ae577ac54",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "date_created": "2023-09-04T17:19:50.217Z",
+        "date_updated": "2023-09-05T05:16:34.301Z",
+        "created_at": "2023-09-05T01:39:00.726Z",
+        "updated_at": "2023-09-05T01:26:22.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a61abb0-6254-4dee-89a6-b61011a469dc",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "date_created": "2023-09-05T06:05:10.776Z",
+        "date_updated": "2023-09-04T18:02:52.299Z",
+        "created_at": "2023-09-04T08:35:32.280Z",
+        "updated_at": "2023-09-04T10:09:51.489Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "permission": [
+      {
+        "id": "bbae68df-f693-4447-8933-2b54f5521f45",
+        "permission_name": "Read",
+        "description": "Read permission",
+        "date_created": "2023-09-04T22:35:22.111Z",
+        "date_updated": "2023-09-04T11:39:31.021Z",
+        "created_at": "2023-09-04T14:16:45.379Z",
+        "updated_at": "2023-09-04T19:26:33.643Z",
+        "role_id": "61914e38-f64d-46a1-9415-d976bdfe8f76"
+      },
+      {
+        "id": "a6477f19-3255-42a0-bb75-35bc29ca208e",
+        "permission_name": "Write",
+        "description": "Write permission",
+        "date_created": "2023-09-04T16:01:44.387Z",
+        "date_updated": "2023-09-04T12:02:14.076Z",
+        "created_at": "2023-09-04T21:07:33.181Z",
+        "updated_at": "2023-09-05T00:56:41.632Z",
+        "role_id": "289b8417-5494-40ad-853c-8594585c2511"
+      },
+      {
+        "id": "1dfc3217-f133-4bc3-b5ab-bf1fed076282",
+        "permission_name": "Delete",
+        "description": "Delete permission",
+        "date_created": "2023-09-04T16:22:54.091Z",
+        "date_updated": "2023-09-04T13:43:27.400Z",
+        "created_at": "2023-09-05T06:29:46.666Z",
+        "updated_at": "2023-09-04T15:28:22.791Z",
+        "role_id": "4a61abb0-6254-4dee-89a6-b61011a469dc"
+      },
+      {
+        "id": "9290a79b-15fd-4c34-acfb-510c19c14c0e",
+        "permission_name": "Execute",
+        "description": "Execute permission",
+        "date_created": "2023-09-04T18:30:34.608Z",
+        "date_updated": "2023-09-04T22:03:10.234Z",
+        "created_at": "2023-09-04T15:54:44.427Z",
+        "updated_at": "2023-09-05T05:28:17.169Z",
+        "role_id": "4a61abb0-6254-4dee-89a6-b61011a469dc"
+      },
+      {
+        "id": "3ca0d618-2c37-41ba-8aea-5e89c6a5b7e9",
+        "permission_name": "Manage",
+        "description": "Manage permission",
+        "date_created": "2023-09-04T09:39:58.725Z",
+        "date_updated": "2023-09-05T05:58:02.598Z",
+        "created_at": "2023-09-04T09:47:38.824Z",
+        "updated_at": "2023-09-05T07:46:44.264Z",
+        "role_id": "61914e38-f64d-46a1-9415-d976bdfe8f76"
+      }
+    ],
+    "role_permission": [
+      {
+        "id": "40a62277-d390-4c46-b39c-66a361a568db",
+        "created_at": "2023-09-04T12:04:09.421Z",
+        "updated_at": "2023-09-04T10:19:21.578Z",
+        "permission_id": "1dfc3217-f133-4bc3-b5ab-bf1fed076282",
+        "role_id": "289b8417-5494-40ad-853c-8594585c2511"
+      },
+      {
+        "id": "4b71ea46-1739-4bdc-92bc-94904abfffcc",
+        "created_at": "2023-09-05T02:55:23.316Z",
+        "updated_at": "2023-09-04T13:53:56.258Z",
+        "permission_id": "bbae68df-f693-4447-8933-2b54f5521f45",
+        "role_id": "4a61abb0-6254-4dee-89a6-b61011a469dc"
+      },
+      {
+        "id": "0588bd09-9063-4d06-a10b-7863fd65b86c",
+        "created_at": "2023-09-04T09:34:03.171Z",
+        "updated_at": "2023-09-04T21:16:45.689Z",
+        "permission_id": "3ca0d618-2c37-41ba-8aea-5e89c6a5b7e9",
+        "role_id": "20949932-97f1-4dd3-bd25-6c8623486866"
+      },
+      {
+        "id": "9f2a49f9-f077-4519-a1b9-2a0a70c4b08a",
+        "created_at": "2023-09-05T05:25:18.462Z",
+        "updated_at": "2023-09-04T13:28:09.830Z",
+        "permission_id": "a6477f19-3255-42a0-bb75-35bc29ca208e",
+        "role_id": "289b8417-5494-40ad-853c-8594585c2511"
+      },
+      {
+        "id": "b88e6158-416a-4418-b8a0-4a3439fdee97",
+        "created_at": "2023-09-04T10:59:35.700Z",
+        "updated_at": "2023-09-05T03:20:24.945Z",
+        "permission_id": "1dfc3217-f133-4bc3-b5ab-bf1fed076282",
+        "role_id": "4a61abb0-6254-4dee-89a6-b61011a469dc"
+      }
+    ],
+    "document": [
+      {
+        "id": "fb42f3e8-d9e2-471b-83f9-1d0d6720249f",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-04T22:48:27.829Z",
+        "date_updated": "2023-09-05T06:26:48.911Z",
+        "created_at": "2023-09-04T10:59:42.034Z",
+        "updated_at": "2023-09-05T03:51:20.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76fc58a5-0c49-42d6-94f9-3926d25a633f",
+        "title": "Proposal",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "date_created": "2023-09-04T18:54:33.106Z",
+        "date_updated": "2023-09-04T17:18:14.416Z",
+        "created_at": "2023-09-04T13:46:55.095Z",
+        "updated_at": "2023-09-04T09:35:56.810Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0bf0757-ebe4-4ef5-834d-c22cd5aaa5cb",
+        "title": "Contract",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "date_created": "2023-09-04T08:49:52.019Z",
+        "date_updated": "2023-09-04T22:24:07.292Z",
+        "created_at": "2023-09-04T18:35:04.195Z",
+        "updated_at": "2023-09-05T05:22:36.307Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45a00cdd-f892-4ea7-8658-a321a7be5452",
+        "title": "Presentation",
+        "content": "Et harum quidem rerum facilis est et expedita distinctio.",
+        "date_created": "2023-09-04T13:25:55.509Z",
+        "date_updated": "2023-09-05T03:32:05.307Z",
+        "created_at": "2023-09-04T18:22:24.027Z",
+        "updated_at": "2023-09-05T05:37:37.553Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce10378b-6f30-4eb4-b48f-e1a1c57ba076",
+        "title": "Manual",
+        "content": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
+        "date_created": "2023-09-05T03:01:27.955Z",
+        "date_updated": "2023-09-04T20:37:50.046Z",
+        "created_at": "2023-09-04T18:51:00.514Z",
+        "updated_at": "2023-09-05T00:47:02.729Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e33e3e57-500b-4d83-aad6-ea6ff8526364",
+        "email": "Coralie36@yahoo.com",
+        "firstName": "Alvena",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a92f5522-5261-4ae0-b506-8e0c7fd7a0b9",
+        "email": "Georgianna_Koelpin1@yahoo.com",
+        "firstName": "Casey",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8b639af-957e-471c-ba94-a469e72a531b",
+        "email": "Maya.Lemke@yahoo.com",
+        "firstName": "Tiana",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/68.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2de9e32a-d136-4bbe-9fb9-3f17d8a9a6ee",
+        "email": "Emil_Legros24@hotmail.com",
+        "firstName": "Eleanore",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1177.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f166cf1d-d404-4ec7-89ac-1bf3d311c312",
+        "email": "Emile_Hintz0@gmail.com",
+        "firstName": "Garett",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/911.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
